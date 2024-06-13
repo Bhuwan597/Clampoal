@@ -12,7 +12,7 @@ const Voice = () => {
       </h2>
       <div className="flex flex-row justify-between text-neutral-500 font-semibold text-lg w-full">
         <p className="max-w-md">
-          We're in here with a simple and clear mission is building a powerful
+          We&apos;re in here with a simple and clear mission is building a powerful
           platform for the change, helping people around the world to raise
           their voices, collection signatures and contribute to the world.
         </p>
