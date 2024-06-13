@@ -12,6 +12,7 @@ import {
   CardTitle,
 } from "@/components/ui/card";
 import React from "react";
+import ContainerSection from "./partials/ContainerSection";
 
 const UserCard: React.FC<UserDetailsInterface> = ({
   title,
@@ -35,8 +36,8 @@ const UserCard: React.FC<UserDetailsInterface> = ({
 
 const PlatformUsers = () => {
   return (
-    <section className="min-h-screen flex flex-row items-start justify-center gap-10 py-32">
-      <div className="max-w-lg flex flex-col items-start justify-center gap-6 px-20">
+    <ContainerSection className="flex flex-row items-start gap-10 py-32">
+      <div className="max-w-lg flex flex-col items-start justify-center gap-6">
         <h2 className="text-xl text-neutral-500 font-medium">
           Who use Platform?
         </h2>
@@ -57,7 +58,7 @@ const PlatformUsers = () => {
           );
         })}
       </div>
-    </section>
+    </ContainerSection>
   );
 };
 

@@ -18,6 +18,9 @@ const config = {
       },
     },
     extend: {
+      backgroundImage: {
+        'values-wave': "url('/assets/svg-backgrounds/values-wave.svg')"
+      },
       colors: {
         "blue-primary": "#6059c9",
         "yellow-primary": "#ffc20e",
