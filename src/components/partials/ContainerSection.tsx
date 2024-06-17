@@ -9,7 +9,7 @@ interface ContainerSectionProps {
 
 const ContainerSection = ({children, className }: ContainerSectionProps) => {
   return (
-    <section className={cn("px-32 min-h-screen w-full", className)}>{children}</section>
+    <section className={cn("px-10 sm:px-20 md:px-32 min-h-screen w-full", className)}>{children}</section>
   )
 }
 

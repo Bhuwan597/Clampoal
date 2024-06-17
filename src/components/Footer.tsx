@@ -38,8 +38,8 @@ const allLinks = {
 
 const Footer = () => {
   return (
-    <footer className="bg-footer text-white  flex flex-col gap-14 py-16 px-32">
-        <div className="flex flex-row">
+    <footer className="bg-footer text-white  flex flex-col gap-14 py-16 px-10 md:px-32">
+        <div className="flex flex-col md:flex-row">
       <div className="flex flex-col gap-6 justify-start max-w-sm">
         <h2 className="font-bold text-lg">What is Campoal?</h2>
         <p className="text-lg">
@@ -63,7 +63,7 @@ const Footer = () => {
             </Link>
         </div>
       </div>
-      <div className="flex flex-row items-start justify-between w-full px-20">        
+      <div className="flex flex-row items-start justify-between w-full gap-4 md:px-20">        
       <div className="flex flex-col gap-10">
         <h3 className="font-bold">Company</h3>
         <div className="flex flex-col gap-4 justify-start items-start w-full">
@@ -102,7 +102,7 @@ const Footer = () => {
       </div>
       </div>
       </div>
-      <div className="flex flex-row items-center justify-between">
+      <div className="flex flex-col md:flex-row items-center justify-between gap-10">
         <p className="text-neutral-300">&copy; 2021 Campoal. Powered by Conikal LLC</p>
         <div className="flex flex-row gap-4 items-center">
           <Link href={"#"} className="bg-white text-black p-2 w-10 h-10 rounded-full flex items-center justify-center hover:bg-slate-200">

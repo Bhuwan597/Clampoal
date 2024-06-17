@@ -35,7 +35,7 @@ const OurValues = () => {
   return (
     <ContainerSection className="bg-values-wave bg-cover bg-center flex flex-col items-start justify-center gap-20 text-blue-primary">
       <h2 className="font-circularstdbold text-5xl font-bold">Our Values</h2>
-      <div className="w-full grid grid-cols-3 place-items-stretch">
+      <div className="w-full grid grid-cols-1 md:grid-cols-3 place-items-stretch">
         {values.map((value, index)=>{
           return (
             <ValuesCard key={crypto.randomUUID()} title={value.title} description={value.description} index={index+1}/>

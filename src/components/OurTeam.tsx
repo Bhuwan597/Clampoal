@@ -29,7 +29,7 @@ export const teamMembers: teamMemberInterface[] = [
 
 const TeamMemberCard = ({ name, position, image }: teamMemberInterface) => {
   return (
-    <div className="relative w-full max-w-sm">
+    <div className="relative w-full max-w-sm my-6 md:my-0">
       <Image
         src={`/assets/teams/${image}`}
         alt={name}
@@ -49,8 +49,8 @@ const TeamMemberCard = ({ name, position, image }: teamMemberInterface) => {
 
 const OurTeam = () => {
   return (
-    <div className="flex flex-row justify-center items-start py-32 px-32 gap-10 w-full">
-      <div className="flex flex-col h-full gap-6 max-w-sm">
+    <section className="flex flex-col md:flex-row justify-center items-center md:items-start py-32 px-10 md:px-32 gap-10 w-full">
+      <div className="flex flex-col h-full gap-6 w-full md:max-w-sm">
         <h2 className="text-primary-font font-extrabold font-circularstdbold text-5xl">Our team</h2>
         <p className="text-xl text-neutral-500">
           We need talented, passionate people to the changing world
@@ -62,7 +62,7 @@ const OurTeam = () => {
           See all members
         </Button>
       </div>
-      <div className="flex flex-row items-center justify-start gap-4">
+      <div className="flex flex-col md:flex-row items-center justify-start gap-4">
         {teamMembers.map((member) => {
           return (
             <TeamMemberCard
@@ -74,7 +74,7 @@ const OurTeam = () => {
           );
         })}
       </div>
-    </div>
+    </section>
   );
 };
 

@@ -9,7 +9,7 @@ export const stats = [
 
 const Stats = () => {
   return (
-    <div className="bg-blue-primary flex flex-row justify-center items-center gap-32 py-20">
+    <div className="bg-blue-primary flex flex-col md:flex-row justify-center items-center gap-32 py-20">
       {stats.map((stat) => {
         return (
           <div key={crypto.randomUUID()} className="flex flex-col items-center justify-center gap-4 text-white">

@@ -9,7 +9,7 @@ const ourVisionContent = {
 
 const OurVisions = () => {
   return (
-    <ContainerSection className="flex flex-col items-center justify-center bg-voice gap-6 py-24">
+    <ContainerSection className="flex flex-col items-center justify-center bg-voice gap-6 py-24 min-h-fit">
         <h2 className='font-circularstdbold text-primary-font font-extrabold text-5xl'>{ourVisionContent.title}</h2>
         <p className='text-2xl font-medium text-neutral-500'>{ourVisionContent.description}</p>
         <div>

@@ -19,8 +19,8 @@ export const ourStoryContent = {
 
 const OurStory = () => {
   return (
-    <ContainerSection className="flex flex-row gap-16 py-32">
-      <div className="w-1/2 flex flex-col gap-10 max-w-lg">
+    <ContainerSection className="flex flex-col md:flex-row gap-16 py-24 md:py-32">
+      <div className="w-full md:w-1/2 flex flex-col gap-10 max-w-lg">
         <h2 className="text-primary-font text-5xl font-bold">
           {ourStoryContent.title}
         </h2>
@@ -37,7 +37,7 @@ const OurStory = () => {
           })}
         </div>
       </div>
-      <div className="w-1/2 flex flex-row gap-6">
+      <div className="w-full md:w-1/2 flex flex-row gap-6">
         <div className="flex flex-col gap-6">
           <Image
           className="rounded-xl"

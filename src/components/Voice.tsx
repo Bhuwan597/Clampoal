@@ -5,12 +5,12 @@ import ContainerSection from "./partials/ContainerSection";
 const Voice = () => {
   return (
     <ContainerSection
-      className="flex flex-col items-start justify-start gap-10 py-32"
+      className="flex flex-col items-start justify-start gap-10 md:py-32"
     >
       <h2 className="text-primary-font text-6xl font-bold">
         We believe in your voice
       </h2>
-      <div className="flex flex-row justify-between text-neutral-500 text-xl w-full">
+      <div className="flex flex-col gap-10 md:flex-row justify-between text-neutral-500 text-xl w-full">
         <p className="max-w-lg">
           We&apos;re in here with a simple and clear mission is building a powerful
           platform for the change, helping people around the world to raise

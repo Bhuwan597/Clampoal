@@ -61,17 +61,17 @@ const UserCard: React.FC<UserDetailsInterface> = ({
 
 const PlatformUsers = () => {
   return (
-    <ContainerSection className="flex flex-row items-start gap-32 py-32">
+    <ContainerSection className="flex flex-col md:flex-row  items-center md:items-start gap-20 md:gap-32 py-32">
       <div className="max-w-md flex flex-col items-start justify-center gap-6">
         <h2 className="text-2xl text-neutral-500 font-medium">
           Who use Platform?
         </h2>
-        <h3 className="text-5xl text-primary-font font-circularstdblack font-extrabold leading-tight">
+        <h3 className="text-4xl md:text-5xl text-primary-font font-circularstdblack font-extrabold leading-tight">
           We believe that when everyone speaks out the problem of society and
           action together, the world will become a better place.
         </h3>
       </div>
-      <div className="grid grid-cols-2 grid-rows-2 gap-4 place-items-end">
+      <div className="grid grid-cols-1 md:grid-cols-2 grid-rows-2 gap-4 md:place-items-end">
         {plaformUsersDetails.map((user) => {
           return (
             <UserCard
