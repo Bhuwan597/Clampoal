@@ -1,6 +1,6 @@
 <h1 align="center" id="title">Campoal Landing Page</h1>
 
-<p align="center"><img src="https://socialify.git.ci/Bhuwan597/campoal/image?font=Jost&amp;language=1&amp;name=1&amp;owner=1&amp;theme=Dark" alt="project-image"></p>
+<p align="center"><img src="https://socialify.git.ci/Bhuwan597/campoal/image?font=Jost&language=1&name=1&owner=1&pattern=Solid&theme=Dark" alt="project-image"></p>
 
 <p id="description">Campoal is a petition platform. It offers complete solutions to launch social movements.</p>
 
@@ -37,6 +37,10 @@ This project is built using the following technologies:
 
 ### Next.js
 Next.js is a popular React framework for building server-side rendered (SSR) and statically generated (SSG) React applications. It provides a powerful development experience with features like automatic code splitting, server-side rendering, and static site generation.
+
+### TypeScript
+
+TypeScript is a strongly typed programming language that builds on JavaScript, giving you better tooling at any scale. Using TypeScript in a Next.js project enhances code quality and developer experience by providing static type checking, autocompletion, and more robust code.
 
 ### React
 React is a JavaScript library for building user interfaces. It allows you to create reusable UI components and manage the state of your application efficiently. React's component-based architecture makes it easy to build complex UIs.
