@@ -1,36 +1,57 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<h1 align="center" id="title">Campoal Landing Page</h1>
 
-## Getting Started
+<p align="center"><img src="https://socialify.git.ci/Bhuwan597/campoal/image?font=Jost&amp;language=1&amp;name=1&amp;owner=1&amp;theme=Dark" alt="project-image"></p>
 
-First, run the development server:
+<p id="description">Campoal is a petition platform. It offers complete solutions to launch social movements.</p>
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+<h2>🚀 Demo</h2>
+
+[https://campoal-six.vercel.app/](https://campoal-six.vercel.app/)
+
+<h2>🛠️ Installation Steps:</h2>
+
+<p>1. Clone the repository</p>
+
+```
+git clone https://github.com/Bhuwan597/campoal.git
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+<p>2. Install the dependencies</p>
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```
+npm install
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+<p>3. Run the project</p>
 
-## Learn More
+```
+npm run dev
+```
 
-To learn more about Next.js, take a look at the following resources:
+  
+  <br>
+<h2>💻 Built with</h2>
+This project is built using the following technologies:
+<br>
+<br>
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Next.js
+Next.js is a popular React framework for building server-side rendered (SSR) and statically generated (SSG) React applications. It provides a powerful development experience with features like automatic code splitting, server-side rendering, and static site generation.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+### React
+React is a JavaScript library for building user interfaces. It allows you to create reusable UI components and manage the state of your application efficiently. React's component-based architecture makes it easy to build complex UIs.
 
-## Deploy on Vercel
+### shadcn/ui
+shadcn/ui is a user interface component library that offers a variety of pre-built UI components that are customizable and easy to integrate into React applications. It helps in speeding up the development process by providing ready-to-use components.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### Lucide React
+Lucide React is an icon library for React applications. It provides a collection of beautiful and customizable SVG icons that can be easily used in any React project.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+### Zod
+Zod is a TypeScript-first schema declaration and validation library. It allows you to define schemas for your data and provides type-safe validation and parsing, ensuring that your data conforms to the specified schema.
+
+### Tailwind CSS
+Tailwind CSS is a utility-first CSS framework that provides a set of low-level utility classes. It allows you to build custom designs directly in your HTML by composing these utility classes, resulting in faster development and smaller bundle sizes.
+
+### React Hook Form
+React Hook Form is a library that simplifies the process of managing form state in React applications. It provides a set of hooks for handling form validation, submission, and state management, making it easier to build and manage forms in React.
