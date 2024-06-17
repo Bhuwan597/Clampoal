@@ -75,11 +75,27 @@
     }
   }
 
-  /* @layer components{
-    .bg-blue-primary{
-      @apply bg-blue-700;
-    }
-    .bg-yellow-primary{
-      @apply bg-yellow-400;
-    }
-  } */
+  @font-face {
+    font-family: 'circularstd';
+    font-style:regular;
+    font-weight: 800;
+    src: url('/assets/font-family/Circularstd.ttf') format('truetype');
+  }
+  @font-face {
+    font-family: 'circularstdnormal';
+    font-style:regular;
+    font-weight: 400;
+    src: url('/assets/font-family/Circularstd-normal.ttf') format('truetype');
+  }
+  @font-face {
+    font-family: 'circularstdbold';
+    font-style:regular;
+    font-weight: 1200;
+    src: url('/assets/font-family/Circularstd-bold.ttf') format('truetype');
+  }
+  @font-face {
+    font-family: 'circularstdblack';
+    font-style:regular;
+    font-weight: 800;
+    src: url('/assets/font-family/Circularstd-black.ttf') format('truetype');
+  }

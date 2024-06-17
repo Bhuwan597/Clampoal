@@ -18,14 +18,23 @@ const config = {
       },
     },
     extend: {
+      fontFamily: {
+        circularstd: ["circularstd", "sans-serif"],
+        circularstdnormal: ["circularstdnormal", "sans-serif"],
+        circularstdbold: ["circularstdbold", "sans-serif"],
+        circularstdblack: ["circularstdblack", "sans-serif"],
+      },
       backgroundImage: {
-        'values-wave': "url('/assets/svg-backgrounds/values-wave.svg')"
+        'values-wave': "url('/assets/svg-backgrounds/values-wave.svg')",
+        'form-wave': "url('/assets/svg-backgrounds/form-wave.svg')",
       },
       colors: {
         "blue-primary": "#6059c9",
         "yellow-primary": "#ffc20e",
         "primary-font": "#2b2b39",
+        "footer": "#22130c",
         hero: "#f5efe0",
+        voice: "#f5efe0",
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",

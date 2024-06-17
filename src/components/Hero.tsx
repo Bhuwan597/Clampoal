@@ -9,9 +9,9 @@ export const heroContent = {
 function Hero() {
   return (
     <section className='w-full flex flex-col items-center justify-center bg-hero gap-10'>
-        <div id="hero-texts" className='max-w-4xl flex flex-col items-center justify-center mt-28 gap-4 text-center'>
-        <h1 className='text-primary-font text-6xl font-bold'>{heroContent.title}</h1>
-        <h2 className='text-neutral-500 text-lg font-medium text-center text-wrap'>{heroContent.description}</h2>
+        <div id="hero-texts" className='max-w-5xl flex flex-col items-center justify-center mt-28 gap-4 text-center'>
+        <h1 className='text-primary-font text-6xl font-circularstdbold'>{heroContent.title}</h1>
+        <h2 className='text-neutral-500 text-xl text-center text-wrap'>{heroContent.description}</h2>
         </div>
         <Image src={"/assets/hero.jpg"} width={800} height={800} alt='Hero Image' />
     </section>

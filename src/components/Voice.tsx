@@ -5,18 +5,18 @@ import ContainerSection from "./partials/ContainerSection";
 const Voice = () => {
   return (
     <ContainerSection
-      className="flex flex-col items-start justify-start gap-10"
+      className="flex flex-col items-start justify-start gap-10 py-32"
     >
       <h2 className="text-primary-font text-6xl font-bold">
         We believe in your voice
       </h2>
-      <div className="flex flex-row justify-between text-neutral-500 font-semibold text-lg w-full">
-        <p className="max-w-md">
+      <div className="flex flex-row justify-between text-neutral-500 text-xl w-full">
+        <p className="max-w-lg">
           We&apos;re in here with a simple and clear mission is building a powerful
           platform for the change, helping people around the world to raise
           their voices, collection signatures and contribute to the world.
         </p>
-        <p className="max-w-md">
+        <p className="max-w-lg">
           At Conikal, We believe that the power to change the world is in all
           human beings, we also believe that when everyone speaks out the
           problem of society and action together, the world will become a better
