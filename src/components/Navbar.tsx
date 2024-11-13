@@ -46,7 +46,7 @@ const Navbar = () => {
           className="hidden xl:flex rounded-full text-slate-500 gap-2 px-4"
         >
           <Globe size={15} />
-          <span className="">Global</span>
+          <span className="">World</span>
         </Button>
       </div>
       <div
